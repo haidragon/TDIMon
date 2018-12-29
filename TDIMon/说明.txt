@@ -1,0 +1,7 @@
+请手动加载驱动后运行程序。
+仅在xp sp3下测试可用，并发连接较多时容易当机。
+连接监控尚未稳定，尽量在虚拟机中测试。
+简单测试可以使用telnet。
+
+Ring3:CODE\TDIMon
+Ring0:CODE\tdifw_smpl
