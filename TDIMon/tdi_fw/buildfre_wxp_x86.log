@@ -1,0 +1,120 @@
+BUILD: Computing Include file dependencies:
+e:\code\windows2\windows2\source\tdi_fw: Do not set ntdebug.
+e:\code\windows2\windows2\source\tdi_fw: 
+e:\code\windows2\windows2\source\tdi_fw: Do not set ntdebug.
+e:\code\windows2\windows2\source\tdi_fw: 
+BUILD: Examining e:\code\windows2\windows2\source\tdi_fw directory for files to compile.
+oacr invalidate root:x86fre /autocleanqueue
+1>Compiling e:\code\windows2\windows2\source\tdi_fw *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS1 NOLINK=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>e:\code\windows2\windows2\source\tdi_fw: TARGETPATH is obj
+1>BUILDMSG: _NT_TARGET_VERSION SET TO WINXP
+1>Rebuilding e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\_objects.mac .\sources.
+1>path contains nonexistant c:\windows\system32\openssh\, removing
+1>BUILD: Compile and Link for x86
+1>nmake : error: e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\_objects.mac was changed during the build process and the build results may not be valid. Please re-build this directory.
+1>errors in directory e:\code\windows2\windows2\source\tdi_fw
+1>nmake : error: e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\_objects.mac was changed during the build process and the build results may not be valid. Please re-build this directory.
+1> F:\WinDDK\7600.16385.1\Bin\x86\oacr\oacrcl @e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\cl.rsp
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.207 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386/"
+1> /FC
+1> /MT
+1> /U_MT
+1> /Ii386
+1> /I.
+1> /I..
+1> /If:\winddk\7600.16385.1\bin\..\src\network\inc
+1> /IF:\WinDDK\7600.16385.1\inc\ddk
+1> /Ie:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386
+1> /IF:\WinDDK\7600.16385.1\inc\api
+1> /IF:\WinDDK\7600.16385.1\inc\api
+1> /IF:\WinDDK\7600.16385.1\inc\crt
+1> /D_X86_=1
+1> /Di386=1
+1> /DSTD_CALL
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0501
+1> /DWINVER=0x0501
+1> /D_WIN32_IE=0x0603
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /DFPO=0
+1> /DNDEBUG
+1> -DUSE_PACKET_ENGINE
+1> /DNTDDI_VERSION=0x05010200
+1> /DPSAPI_VERSION=1
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> /Gm-
+1> /W3
+1> /WX
+1> /Gz
+1> /hotpatch
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Z7
+1> /Oxs
+1> /Oy-
+1> /Z7
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /wd4603
+1> /wd4627
+1> /typedil-
+1> /FIF:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\tdi_fw.c .\dispatch.c .\disp_conn.c .\disp_dg.c .\disp_ev.c .\disp_obj.c .\events.c .\ev_conn.c .\ev_dg.c .\filter.c .\obj_tbl.c .\ipc.c .\pid_pname.c .\packet.c .\conn_state.c .\sids.c .\disp_sr.c .\ev_recv.c 
+1>tdi_fw.c
+1>dispatch.c
+1>disp_conn.c
+1>disp_dg.c
+1>disp_ev.c
+1>disp_obj.c
+1>events.c
+1>ev_conn.c
+1>ev_dg.c
+1>filter.c
+1>obj_tbl.c
+1>ipc.c
+1>pid_pname.c
+1>packet.c
+1>conn_state.c
+1>sids.c
+1>disp_sr.c
+1>ev_recv.c
+1>Generating Code...
+1> F:\WinDDK\7600.16385.1\Bin\x86\oacr\oacrlink /lib /out:e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\tdi_fw.lib /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221  /WX /nodefaultlib /machine:ix86 @e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\lib.rsp
+1>Microsoft (R) Library Manager Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\tdi_fw.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\dispatch.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\disp_conn.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\disp_dg.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\disp_ev.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\disp_obj.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\events.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\ev_conn.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\ev_dg.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\filter.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\memtrack.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\obj_tbl.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\sock.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\ipc.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\pid_pname.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\packet.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\conn_state.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\sids.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\disp_sr.obj 
+1>e:\code\windows2\windows2\source\tdi_fw\objfre_wxp_x86\i386\ev_recv.obj 

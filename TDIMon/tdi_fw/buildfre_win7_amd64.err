@@ -1,0 +1,2 @@
+1>errors in directory e:\code\windows2\windows2\source\tdi_fw
+1>nmake : error: e:\code\windows2\windows2\source\tdi_fw\objfre_win7_amd64\amd64\_objects.mac was changed during the build process and the build results may not be valid. Please re-build this directory.
